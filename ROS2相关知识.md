@@ -191,3 +191,12 @@ class TFPointListener:public rclcpp::Node
 
 [编译指令](https://www.cnblogs.com/T-D-C/articles/18973156#31-%E7%BC%96%E8%AF%91)
 
+### 录制ros2bag
+```C++
+ros2 bag record /camera_info /image_raw
+ros2 bag play --loop 包名
+```
+方便调试的一些按键
+空格键可以暂停
+`→` (右方向键)	步进一帧（仅在暂停状态下有效）
+
