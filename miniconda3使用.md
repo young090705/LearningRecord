@@ -14,6 +14,12 @@ conda config --set show_channel_urls yes
 conda config --remove-key channels
 ```
 
+创建虚拟环境
+```
+conda create --name data_env python=3.10 
+#--name 后面是虚拟环境名字
+```
+
 显示所拥有的虚拟环境
 
 ```python
